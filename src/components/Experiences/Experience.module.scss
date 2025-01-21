@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.experience {
+  padding-top: 6vh;
+  height: 94vh;
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .skills {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 100px 50px;
+
+    .skillList {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        padding: 5px;
+      }
+
+      .description {
+        padding: 2px;
+      }
+    }
+  }
+}

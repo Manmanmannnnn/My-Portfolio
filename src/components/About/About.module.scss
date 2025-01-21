@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about {
+  width: 80vw;
+  text-align: center;
+  padding-top: 6vh;
+  height: 94vh;
+  margin: auto;
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .aboutContent {
+    display: flex;
+    height: 60%;
+    align-items: center;
+
+    img {
+      height: 50%;
+    }
+
+    .aboutSections {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .aboutBox {
+        display: flex;
+        justify-content: center;
+        height: 160px;
+        gap: 20px;
+
+        .aboutExperience,
+        .aboutEducation {
+          border: 1px solid black;
+          border-radius: 15px;
+          padding: 3rem;
+          max-width: 100%; /* Ensure the elements fit within their container */
+          max-height: 100%; /* Prevent overflowing vertically */
+          width: auto; /* Allow the element to adjust width as necessary */
+          height: auto; /* Allow the element to adjust height as necessary */
+          overflow: hidden; /* Hide any overflow */
+          margin: 0 auto; /* Center horizontally if there's any margin needed */
+        }
+      }
+
+      .aboutParagraph {
+        text-align: left;
+      }
+    }
+  }
+}

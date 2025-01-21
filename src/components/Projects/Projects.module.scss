@@ -1,0 +1,23 @@
+.myWork {
+  .projectContainer {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(250px, 1fr)
+    ); // Responsive grid
+    gap: 20px;
+    padding: 10px;
+
+    .project {
+      width: 300px; // Fix width of each project
+      height: 300px; // Set a fixed height for each project (or auto, depending on your need)
+      overflow: hidden; // Ensure content doesn't overflow
+
+      img {
+        width: 80%;
+        height: 70%;
+        object-fit: cover; // Ensure the image covers the entire space without distortion
+      }
+    }
+  }
+}
