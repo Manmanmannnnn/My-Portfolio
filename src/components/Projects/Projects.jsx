@@ -15,8 +15,14 @@ function Projects() {
             <div className={style.project} key={index}>
               <p>{proj.name}</p>
               <img src={proj.img} alt='' />
-              <button>Show code</button>
-              <button>Preview</button>
+              <div className={style.buttons}>
+                <button onClick={() => (window.location.href = proj.github)}>
+                  Show code
+                </button>
+                <button onClick={() => (window.location.href = proj.preview)}>
+                  Preview
+                </button>
+              </div>
             </div>
           );
         })}

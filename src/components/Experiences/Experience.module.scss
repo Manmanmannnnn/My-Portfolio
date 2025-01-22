@@ -1,3 +1,5 @@
+$light-shadow: rgb(188, 247, 171);
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,7 @@
 }
 
 .experience {
+  overflow: hidden;
   padding-top: 6vh;
   height: 94vh;
 
@@ -16,11 +19,11 @@
 
   .skills {
     margin: auto;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 100px 50px;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
 
     .skillList {
       display: flex;
@@ -30,9 +33,25 @@
         padding: 5px;
       }
 
+      .icon:hover {
+        -webkit-box-shadow: 3px 5px 43px 13px $light-shadow;
+        box-shadow: 3px 5px 43px 13px $light-shadow;
+        transition: 1s;
+      }
       .description {
         padding: 2px;
       }
     }
+  }
+}
+
+@media (max-width: 800px) {
+  .skills {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 300px;
   }
 }

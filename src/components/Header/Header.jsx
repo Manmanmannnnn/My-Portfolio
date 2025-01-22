@@ -2,6 +2,7 @@ import style from "./Header.module.scss";
 import profile from "./../../assets/profile.png";
 import resume from "./../../assets/resume.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
   return (
@@ -12,9 +13,14 @@ function Header() {
         <p>Norman</p>
         <p>Frontend Developer based in Philippines</p>
         <div className={style.headerAction}>
-          <a className={style.connect} href='#projects'>
+          <AnchorLink
+            href='#contact'
+            offset='70'
+            duration={1000}
+            className={style.connect}
+          >
             Connect with me
-          </a>
+          </AnchorLink>
           <div className={style.myCV} onClick={() => window.open(resume)}>
             My resume
           </div>

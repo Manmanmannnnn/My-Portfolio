@@ -10,7 +10,7 @@ function NavigationBar() {
   }
 
   return (
-    <>
+    <div className={style.container}>
       <nav className={style.navbar}>
         <img src='' alt='logo' />
         {/* Create an icon for your portfolio */}
@@ -22,7 +22,7 @@ function NavigationBar() {
           </li>
 
           <li>
-            <AnchorLink href='#about' offset='70' duration={1000}>
+            <AnchorLink href='#about' offset='60' duration={1000}>
               About
             </AnchorLink>
           </li>
@@ -92,7 +92,7 @@ function NavigationBar() {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 
