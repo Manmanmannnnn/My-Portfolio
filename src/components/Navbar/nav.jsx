@@ -1,7 +1,7 @@
 import style from "./nav.module.scss";
 import React, { useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import logo from "./../../assets/logo.png";
 function NavigationBar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +12,7 @@ function NavigationBar() {
   return (
     <div className={style.container}>
       <nav className={style.navbar}>
-        <img src='' alt='logo' />
+        <img src={logo} alt='logo' />
         {/* Create an icon for your portfolio */}
         <ul className={style.navMenu}>
           <li>
@@ -40,7 +40,7 @@ function NavigationBar() {
       </nav>
 
       <nav className={style.hamburgerNav}>
-        <img src='' alt='logo' />
+        <img src={logo} alt='logo' />
         <div className={style.hamburgerMenu}>
           <div
             className={`${style.hamburgerIcon} ${isOpen ? style.open : ""}`}

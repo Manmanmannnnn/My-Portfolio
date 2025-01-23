@@ -5,10 +5,12 @@
 }
 
 .myWork {
-  height: 94vh;
+  height: 120vh;
   padding-top: 6vh;
   width: 80%;
   margin: auto;
+  margin-bottom: 100px;
+  overflow: hidden;
   h2 {
     padding: 0;
     font-size: 2.5rem;
@@ -65,6 +67,25 @@
           color: rgb(235, 227, 227);
           transition: 0.5s;
         }
+      }
+    }
+  }
+}
+@media (max-width: 1230px) {
+  .myWork {
+    height: 165vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .myWork {
+    height: 270vh;
+    width: 100%;
+    .projectContainer {
+      display: block;
+      width: 100%;
+      .project {
+        margin: 50px auto;
       }
     }
   }
