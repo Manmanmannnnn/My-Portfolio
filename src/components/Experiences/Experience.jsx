@@ -14,11 +14,11 @@ function Experience() {
       { name: "HTML", url: <FaHtml5 size={35} />, level: "Intermediate" },
       { name: "CSS", url: <FaCss3Alt size={35} />, level: "Basic" },
       { name: "JS", url: <FaJsSquare size={35} />, level: "Basic" },
-      { name: "SASS", url: <FaSass size={35} />, level: "Intermediate" },
+      { name: "SASS", url: <FaSass size={35} />, level: "Basic" },
       {
         name: "PRETTIER",
         url: <SiPrettier size={35} />,
-        level: "Intermediate",
+        level: "Basic",
       },
       { name: "ESLINT", url: <SiEslint size={35} />, level: "Basic" },
       { name: "REACT", url: <FaReact size={35} />, level: "Basic" },

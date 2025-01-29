@@ -9,9 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (max-width: 1200px) {
-  .section {
-    height: fit-content;
-    display: block;
-  }
+.portfolioLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
 }

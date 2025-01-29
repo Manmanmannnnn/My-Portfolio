@@ -13,7 +13,7 @@ function About() {
           <div className={style.aboutBox}>
             <div className={style.aboutExperience}>
               <GiAchievement size={30} />
-              <p>2+ years</p>
+              <p>Fresher:</p>
               <p>Frontend Development</p>
             </div>
             <div className={style.aboutEducation}>
@@ -23,10 +23,14 @@ function About() {
             </div>
           </div>
           <p className={style.aboutParagraph}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            incidunt enim expedita saepe pariatur, sunt reprehenderit minima
-            tempore, harum dolorum ab assumenda commodi illum rerum maxime et,
-            amet delectus modi?
+            I'm an electrical engineer who recently made the decision to pursue
+            a career in the tech industry by learning web development. I’m
+            excited to explore new things and manifest my imagination in coding
+            and design. Even though I'm just new in web development, I’m excited
+            to learn more and grow in this field. I believe that my engineering
+            background will help me understand complex systems. I’m looking
+            forward to being part of the web development team and helping create
+            meaningful and user-friendly digital experiences.
           </p>
         </div>
       </div>

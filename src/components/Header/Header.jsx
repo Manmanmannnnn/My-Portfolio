@@ -11,7 +11,7 @@ function Header() {
       <div className={style.info}>
         <p>Hello, I'm</p>
         <p>Norman</p>
-        <p>Frontend Developer based in Philippines</p>
+        <p>Frontend Developer</p>
         <div className={style.headerAction}>
           <AnchorLink
             href='#contact'
@@ -26,7 +26,11 @@ function Header() {
           </div>
         </div>
         <div className={style.socialsContainer}>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
+          <a
+            href='https://github.com/Manmanmannnnn'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FaGithub size={40} color='black' />
           </a>
           <a href='#' target='_blank' rel='noopener noreferrer'>
