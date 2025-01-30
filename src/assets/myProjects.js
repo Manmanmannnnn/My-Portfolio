@@ -12,7 +12,7 @@ export const myProjects = [
     description: "React",
     name: "Pokemon Deck",
     img: pokedeck,
-    preview: "https://manmanmannnnn.github.io/Pokedeck_App/",
+    preview: "https://cute-dusk-416b6f.netlify.app/",
     github: "https://github.com/Manmanmannnnn/Pokedeck_App",
   },
 
@@ -21,7 +21,7 @@ export const myProjects = [
     description: "React",
     name: "Task Manager",
     img: taskManager,
-    preview: "https://manmanmannnnn.github.io/TaskManager_App/",
+    preview: "https://fanciful-narwhal-6da9e6.netlify.app/",
     github: "https://github.com/Manmanmannnnn/TaskManager_App",
   },
 
@@ -30,7 +30,7 @@ export const myProjects = [
     description: "React",
     name: "Clock App",
     img: clock,
-    preview: "https://manmanmannnnn.github.io/my-clock-app/",
+    preview: "https://sprightly-taiyaki-6b39c5.netlify.app/",
     github: "https://github.com/Manmanmannnnn/my-clock-app",
   },
 
@@ -39,7 +39,7 @@ export const myProjects = [
     description: "Vanilla CSS JS & HTML",
     name: "Etch a Sketch",
     img: sketchpad,
-    preview: "https://manmanmannnnn.github.io/Odin-Project_Etch_a_Sketch/",
+    preview: "https://lovely-croquembouche-9386c3.netlify.app/",
     github: "https://github.com/Manmanmannnnn/Odin-Project_Etch_a_Sketch",
   },
   {
@@ -47,7 +47,7 @@ export const myProjects = [
     description: "Vanilla CSS JS & HTML",
     name: "Calculator",
     img: calculator,
-    preview: "https://manmanmannnnn.github.io/Odin-Project_Calculator/",
+    preview: "https://splendorous-nasturtium-7df5a1.netlify.app/",
     github: "https://github.com/Manmanmannnnn/Odin-Project_Calculator",
   },
 
@@ -56,7 +56,7 @@ export const myProjects = [
     description: "Vanilla CSS JS & HTML",
     name: "Weather App",
     img: weather,
-    preview: "https://manmanmannnnn.github.io/Odin-Project_WeatherApp/",
+    preview: "https://chipper-swan-fabcf6.netlify.app/",
     github: "https://github.com/Manmanmannnnn/Odin-Project_WeatherApp",
   },
 
@@ -65,7 +65,7 @@ export const myProjects = [
     description: "Vanilla CSS JS & HTML",
     name: "Sign up Form",
     img: signup,
-    preview: "https://manmanmannnnn.github.io/Odin-Project_SignUp_Form/",
+    preview: "https://mellifluous-travesseiro-a44069.netlify.app/",
     github: "https://github.com/Manmanmannnnn/Odin-Project_SignUp_Form",
   },
 ];

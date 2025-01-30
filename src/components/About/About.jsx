@@ -1,5 +1,5 @@
 import style from "./About.module.scss";
-import profile from "./../../assets/profile.png";
+import profile from "./../../assets/aboutprofile.png";
 import { IoSchool } from "react-icons/io5";
 import { GiAchievement } from "react-icons/gi";
 function About() {
@@ -23,14 +23,10 @@ function About() {
             </div>
           </div>
           <p className={style.aboutParagraph}>
-            I'm an electrical engineer who recently made the decision to pursue
-            a career in the tech industry by learning web development. I’m
-            excited to explore new things and manifest my imagination in coding
-            and design. Even though I'm just new in web development, I’m excited
-            to learn more and grow in this field. I believe that my engineering
-            background will help me understand complex systems. I’m looking
-            forward to being part of the web development team and helping create
-            meaningful and user-friendly digital experiences.
+            I’m a fresher front-end developer with a background in electrical
+            engineering. Before transitioning to web development, I worked as a
+            college instructor and solutions engineer. I don't have much to
+            offer right now, but I'm excited to learn and grow in this career.
           </p>
         </div>
       </div>

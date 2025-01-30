@@ -10,12 +10,17 @@ function Contact() {
       <div className={style.infoContainer}>
         <div className={style.emailInfo}>
           <SiGmail size={20} />
-          <span>Example@gmail.com</span>
+          <span>normanbobgomez@gmail.com</span>
         </div>
-        <div className={style.linkedIn}>
-          <FaLinkedin size={20} />
+        <a
+          href='https://www.linkedin.com/in/norman-bob-gomez/'
+          target='_blank'
+          rel='noopener noreferrer'
+          className={style.linkedIn}
+        >
+          <FaLinkedin size={30} color='black' />
           <span>My LinkedIn</span>
-        </div>
+        </a>
       </div>
     </div>
   );

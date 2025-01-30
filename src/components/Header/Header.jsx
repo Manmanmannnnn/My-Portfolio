@@ -1,6 +1,5 @@
 import style from "./Header.module.scss";
-import profile from "./../../assets/profile.png";
-import resume from "./../../assets/resume.pdf";
+import profile from "./../../assets/Untitled design.png";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -21,9 +20,14 @@ function Header() {
           >
             Connect with me
           </AnchorLink>
-          <div className={style.myCV} onClick={() => window.open(resume)}>
+          <a
+            className={style.myCV}
+            href='https://mycv2.my.canva.site/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             My resume
-          </div>
+          </a>
         </div>
         <div className={style.socialsContainer}>
           <a
@@ -33,7 +37,11 @@ function Header() {
           >
             <FaGithub size={40} color='black' />
           </a>
-          <a href='#' target='_blank' rel='noopener noreferrer'>
+          <a
+            href='https://www.linkedin.com/in/norman-bob-gomez/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <FaLinkedin size={40} color='black' />
           </a>
         </div>

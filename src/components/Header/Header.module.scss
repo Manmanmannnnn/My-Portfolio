@@ -12,7 +12,9 @@ $light-black: rgb(105, 103, 103);
   margin-bottom: 80px;
 
   img {
-    height: 50%;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
   }
 
   .info {
