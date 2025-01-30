@@ -22,7 +22,7 @@ function Header() {
           </AnchorLink>
           <a
             className={style.myCV}
-            href='https://mycv2.my.canva.site/'
+            href='https://mycv2.my.canva.site/creativecvprofile3652'
             target='_blank'
             rel='noopener noreferrer'
           >
